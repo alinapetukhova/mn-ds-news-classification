@@ -11,17 +11,18 @@ Repository contains:
 
 ### Results.
 
-
+Multilabel classification results for level 1 categories.
 | Embeddings model  | TF-IDF precision  | TF-IDF recall | TF-IDF f1 score  | Glove precision  | Glove recall | Glove f1 score | DistilBertTokenizer precision | DistilBertTokenizer recall| DistilBertTokenizer f1 score
-| :------------ |---------------:| -----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| :------------ |---------------:| -----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Multinomial NB 	| 0.802 | 0.631 | 0.649 | 0.629 | 0.499 | 0.529 | n/a   | n/a   | n/a   | 
 | Logistic Regression	| 0.800 | 0.763 | 0.774 | 0.747 | 0.739 | 0.739 | n/a   | n/a   | n/a   |
 | SVC classifier 	| 0.808 | 0.796 | 0.799 | 0.768 | 0.762 | 0.760 | n/a   | n/a   | n/a   |
-| DistilBERTModel 	| n/a   | n/a   | n/a   | n/a   | n/a   | n/a   | 0.849 | 0.842 | 0.844 |
+| DistilBERTModel 	| n/a   | n/a   | n/a   | n/a   | n/a   | n/a   | 0.849 | 0.842 | 0.844 ||
 
-
+Multilabel classification results for level 2 categories.
+| Embeddings model  | TF-IDF precision  | TF-IDF recall | TF-IDF f1 score  | Glove precision  | Glove recall | Glove f1 score | DistilBertTokenizer precision | DistilBertTokenizer recall| DistilBertTokenizer f1 score
+| :------------ |---------------:| -----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Multinomial NB 	| 0.628 | 0.602 | 0.583 | 0.496 | 0.484 | 0.469 | n/a | n/a | n/a |
 | Logistic Regression	| 0.646 | 0.649 | 0.635 | 0.589 | 0.589 | 0.577 | n/a | n/a | n/a |
 | SVC classifier 	| 0.645 | 0.646 | 0.628 | 0.581 | 0.595 | 0.571 | n/a | n/a | n/a |
-| DistilBERTModel 	| n/a | n/a | n/a | n/a | n/a | n/a | 0.735 | 0.715 | 0.715 |
-
+| DistilBERTModel 	| n/a | n/a | n/a | n/a | n/a | n/a | 0.735 | 0.715 | 0.715 ||
